@@ -1,0 +1,240 @@
+.conteudo-7 {
+    background-color: #000;
+    width: 100%;
+    height: auto;
+}
+
+.container-conteudo-7 {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #c4f860;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.container-conteudo-7 h2 {
+    font-size: 3rem;
+}
+
+.container-conteudo-7 p {
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.button-7 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.button {
+    background-color: #5c13e6;
+    color: #fff;
+    padding: 20px 80px;
+    border-radius: 20px;
+    border: 3px solid #fff;
+    font-weight: 600;
+    box-shadow: 0 0 5px #d1cece;
+}
+
+.button-7 a {
+    text-decoration: none;
+}
+
+.form-conteudo-7 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.form-desc-conteudo-7 {
+    width: 40%;
+}
+
+.form-desc-conteudo-7 h2 {
+    color: #d1cece;
+    font-size: 3rem;
+}
+
+.form-conteudo-7 p {
+    color: #d1cece;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.form-form-7 {
+    width: 60%;
+}
+
+.grupo-form{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.grupo-form input {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #58565642;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-form-7 form textarea {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #58565642;
+    border: none;
+    color: #58565642;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-form-7 form button {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #c4f860;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.form-form-7 form button:hover {
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+@media screen and (max-width:768px) {
+    .button-7 {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .container-conteudo-7 h2 {
+        font-size: 2rem;
+    }
+    
+    .container-conteudo-7 p {
+        margin-top: 15px;
+        line-height: 25px;
+    }
+
+    .button-7 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .button {
+        background-color: #5c13e6;
+        color: #fff;
+        padding: 20px 80px;
+        border-radius: 20px;
+        border: 3px solid #fff;
+        font-weight: 600;
+        box-shadow: 0 0 5px #d1cece;
+    }
+    
+    .button-7 a {
+        text-decoration: none;
+    }
+    
+    .form-conteudo-7 {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .form-desc-conteudo-7 {
+        width: 100%;
+    }
+    
+    .form-desc-conteudo-7 h2 {
+        color: #d1cece;
+        font-size: 2rem;
+    }
+    
+    .form-conteudo-7 p {
+        color: #d1cece;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+    
+    .form-form-7 {
+        width: 100%;
+    }
+    
+    .grupo-form{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .grupo-form input {
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #58565642;
+        border: none;
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .form-form-7 form textarea {
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #58565642;
+        border: none;
+        color: #58565642;
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .form-form-7 form button {
+        width: 100%;
+        margin-top: 10px;
+        background-color: #c4f860;
+        border: none;
+        padding: 20px;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 1.1rem;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    
+    .form-form-7 form button:hover {
+        transform: scale(1.05);
+        transition: .5s;
+    }
+}

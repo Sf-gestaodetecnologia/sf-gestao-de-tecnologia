@@ -1,0 +1,55 @@
+.conteudo-4 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.clock {
+    text-align: center;
+}
+
+.clock h2 {
+    font-size: 4rem;
+    color: #5c13e6;
+}
+
+.clock p {
+    color: silver;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .container-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5rem;
+    }
+    
+    .clock {
+        text-align: center;
+    }
+    
+    .clock h2 {
+        font-size: 3rem;
+        color: #5c13e6;
+        margin-top: 30px;
+    }
+    
+    .clock p {
+        color: silver;
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+}

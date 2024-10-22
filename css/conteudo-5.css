@@ -1,0 +1,115 @@
+.conteudo-5 {
+    background-color: #5c13e6;
+    height: auto;
+}
+
+.container-5 {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.container-5 h2 {
+    margin-top: 80px;
+    color: #fff;
+    font-size: 3rem;
+    width: 50%;
+}
+
+.container-5 p {
+    margin-top: 80px;
+    color: #fff;
+    line-height: 25px;
+    font-size: 1.2rem;
+    width: 50%;
+    text-align: right;
+}
+
+.conteudo-5-taks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 1.5rem;
+}
+
+.conteudo-5-taks h3 {
+    color: #fff;
+    margin-bottom: 50px;
+    background: linear-gradient(to right, #4c0cc2, #ffffff3e);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#taks-2 {
+    margin-top: 20px;
+}
+#taks-3 {
+    margin-top: 40px;
+}
+#taks-4 {
+    margin-top: 60px;
+}
+#taks-5 {
+    margin-top: 80px;
+}
+
+@media screen and (max-width:768px) {
+    .container-5 {
+        max-width: 1300px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 5rem;
+        padding: 20px;
+    }
+    
+    .container-5 h2 {
+        margin-top: 20px;
+        color: #fff;
+        font-size: 2rem;
+        width: 100%;
+    }
+    
+    .container-5 p {
+        margin-top: 10px;
+        color: #fff;
+        line-height: 25px;
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: left;
+    }
+
+    .conteudo-5-taks {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        margin-top: 10px;
+        gap: 1rem;
+    }
+
+    .conteudo-5-taks h3 {
+        color: #fff;
+        margin-bottom: 50px;
+        background: linear-gradient(to right, #4c0cc2, #ffffff3e);
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    #taks-2 {
+        margin-top: 0px;
+    }
+    #taks-3 {
+        margin-top: 0px;
+    }
+    #taks-4 {
+        margin-top: 0px;
+    }
+    #taks-5 {
+        margin-top: 0px;
+    }
+}

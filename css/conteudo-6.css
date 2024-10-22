@@ -1,0 +1,135 @@
+.conteudo-6 {
+    background-color: #f4ececbe;
+}
+
+.container-6 {
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container-6 h2 {
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.container-6 p {
+    margin-top: 20px;
+    color: #0000009f;
+    font-weight: 600;
+}
+
+.cards-clientes {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 5rem;
+}
+
+.bloco-cliente {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.bloco-cliente .top-cards {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.top-cards img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.desc-cards p {
+    margin-top: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.bloco-cliente hr {
+    margin-top: 20px;
+    color: #0000009f;
+}
+
+.img-cards-empresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-cards-empresa img {
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .container-6 h2 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .container-6 p {
+        margin-top: 20px;
+        color: #0000009f;
+        font-weight: 600;
+    }
+    
+    .cards-clientes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .bloco-cliente {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    
+    .bloco-cliente .top-cards {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .top-cards img {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .desc-cards p {
+        margin-top: 20px;
+        line-height: 25px;
+        font-weight: 500;
+        padding: 20px;
+    }
+    
+    .bloco-cliente hr {
+        margin-top: 20px;
+        color: #0000009f;
+    }
+    
+    .img-cards-empresa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .img-cards-empresa img {
+        border: none;
+        width: 120px;
+        height: 100px;
+    }
+}
